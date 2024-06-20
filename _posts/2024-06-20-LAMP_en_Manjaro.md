@@ -16,7 +16,7 @@ sudo su -
 
 Actualiza el sistema:
 ```
-systemctl -Syu
+pacman -Syu
 ```
 (Reicinia si fuese necesario)
 
