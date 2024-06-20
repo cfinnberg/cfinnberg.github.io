@@ -96,7 +96,7 @@ systemctl restart mariadb
 
 Instalar paquetes:
 ```
-pacman -S php php-gd php-fpm php-imagick libiconv
+pacman -S php php-gd php-fpm php-imagick php-apache libiconv
 ```
 
 Editar el fichero `/etc/php/conf.d/local.ini` y añade lo siguiente:
